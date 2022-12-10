@@ -1,5 +1,5 @@
 # Create Data Wrangling and Analysis with Spreadsheet
-**I studied correlation consumer price index (inflation) vs property sales, prices over 10-year period**
+**I studied correlation consumer price index (inflation) vs property sales, prices in Melbourne, Victoria, Australia for over 10-year period**
 
 ## 1. Data Collection
 ### Data sources
@@ -11,6 +11,9 @@
 ### Platforms and tools
 #### As the data is small dataset, spreadsheet has been used to
 - Exract-Load-Clean-Merge-Transform
+- There were too many attributes available, state, cities, areas etc. Only mean, median, number of sales of houses, units and apartments have been selected
+- The data was available in qurterly format, therefore, the September value of each year has been picked by "advanced filtering".
+
 ## 2. Data Correction
 ### About this Professional Certificate
 **Platforms and tools**
