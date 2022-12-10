@@ -9,9 +9,7 @@
 ##### [Australian Bureau of Statistics](https://www.abs.gov.au/512252f2-4af7-4ecd-be25-0345bf5efaa3)
 
 ### Platforms and tools
---
-**As the data is small dataset, spreadsheet has been used to**
----
+#### As the data is small dataset, spreadsheet has been used to
 - Exract-Load-Clean-Merge-Transform
 ## 2. Data Correction
 ### About this Professional Certificate
