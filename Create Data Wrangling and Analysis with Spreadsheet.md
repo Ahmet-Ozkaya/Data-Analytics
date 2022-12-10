@@ -17,3 +17,4 @@
 ## Data Visualization
 ### Google Data Studio
 **As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker **
+**As it is well i**
