@@ -19,3 +19,4 @@
 **As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker **
 **As it is well i**
 #### [Dashboard](https://datastudio.google.com/reporting/ad368e2c-34ff-436b-a9d1-127288433fda)
+[](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/victoria_housing_outlook_dashboard.png)
