@@ -1,6 +1,6 @@
 # Create Data Wrangling and Analysis with Spreadsheet
 ---
-### About this Professional Certificate
+### Collecting Data
 
 **Data analytics** is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making.
 **Skills you’ll gain will include**: Data cleaning, problem solving, critical thinking, data ethics, and data visualization
