@@ -1,7 +1,7 @@
 # Create Data Wrangling and Analysis with Spreadsheet
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
-## 1. Data Collection
+## Data Collection
 ### Data sources
 **The data collected from ...**
 ##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
@@ -14,6 +14,6 @@
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
 - The data was available in quarterly format; therefore, the September value of each year has been picked by "advanced filtering".
 
-## 2. Data Correction
-### About this Professional Certificate
-**Platforms and tools**
+## Data Visualization
+### Google Data Studio
+**As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker **
