@@ -1,4 +1,4 @@
-# Create Data Wrangling and Analysis with Spreadsheet
+# Create Data Wrangling and Analysis with SQL
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## Data Collection
@@ -12,7 +12,6 @@
 - The date value was in "mmm-yyyy" format, it was split into 2 different columns via "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number
 FROM bldg_approval_vic;
 " as year and month.
-- The data was available in quarterly format; therefore, the September value of each year has been picked by "advanced filtering".
 - The "=QUERY(Data,"SELECT A,AVG(B) GROUP BY A",1)" google spreadsheet formula has been used to get median prices of the each year.
 
 ## Data Visualization
