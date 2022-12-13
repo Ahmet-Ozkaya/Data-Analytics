@@ -1,15 +1,15 @@
 # Create Data Wrangling and Analysis with SQL
 - Useful SQL String Functions to Clean Data
 ##### 
-LEFT, RIGHT, and LENGTH
-TRIM
-POSITION and STRPOS
-SUBSTR
-CONCAT
-Changing case with UPPER and LOWER
-Turning strings into dates
-Turning dates into more useful dates
-COALESCE
+- LEFT, RIGHT, and LENGTH
+- TRIM
+- POSITION and STRPOS
+- SUBSTR
+- CONCAT
+- Changing case with UPPER and LOWER
+- Turning strings into dates
+- Turning dates into more useful dates
+- COALESCE
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## Data Collection
