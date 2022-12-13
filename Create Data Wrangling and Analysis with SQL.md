@@ -46,6 +46,6 @@ AND a.Number = b.Number
 ORDER BY a.Month
 - Observing unusual values with statisticals: MIN, MAX, MEAN, AVERAGE, MEDIAN, STDEV
 ## Data Visualization
-### Google Data Studio
+### Microsoft Power BI
 The data visualized with Microsoft Power BI
 ## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/Housing%20Outlook.pdf)
