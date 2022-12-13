@@ -14,12 +14,9 @@
 - The average of each year has been calculated 
 - The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
 - Checking duplicates
-
-- The query 
-# COUNTING DUPLICATE ROWS
+- The query for counting duplicate rows
 SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
 - Listing duplicate rows
-# LISTING DUPLICATE ROWS
 Query SELECT a.Month
 FROM `.DS1.building_approval` a
 JOIN (SELECT Month, Number, COUNT(*)
