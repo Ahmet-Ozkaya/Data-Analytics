@@ -44,7 +44,7 @@ HAVING count(*) > 1 ) b
 ON a.Month = b.Month
 AND a.Number = b.Number
 ORDER BY a.Month
-
+- Observing unusual values with statisticals: MIN, MAX, MEAN, AVERAGE, MEDIAN,, STDEV
 ## Data Visualization
 ### Google Data Studio
 As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker
