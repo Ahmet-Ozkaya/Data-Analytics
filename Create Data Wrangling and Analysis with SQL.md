@@ -9,6 +9,7 @@
 #### The data has uploaded to Google Bigquery
 - Extract-Load-Clean-Merge-Transform
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
+- SELECT TRIM(Month),Number FROM `.DS1.building_approval`
 - The date value was in "mmm-yyyy" format, it was split into 2 different columns as year and month.
 - The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" 
 - The average of each year has been calculated 
@@ -16,7 +17,7 @@
 - Checking duplicates
 - The query for counting duplicate rows
 SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
-- Listing duplicate rows
+- The query for listing duplicate rows
 Query SELECT a.Month
 FROM `.DS1.building_approval` a
 JOIN (SELECT Month, Number, COUNT(*)
