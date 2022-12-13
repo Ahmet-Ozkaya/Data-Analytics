@@ -10,7 +10,7 @@
 - Turning strings into dates
 - Turning dates into more useful dates
 - COALESCE
-- 
+ 
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## Data Collection
