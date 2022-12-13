@@ -48,4 +48,4 @@ ORDER BY a.Month
 ## Data Visualization
 ### Microsoft Power BI
 The data visualized with Microsoft Power BI
-## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/Housing%20Outlook.pdf)
+## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/HousingOutlookPowerBI.png)
