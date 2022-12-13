@@ -5,7 +5,9 @@
 ### Data sources
 **The data collected from ...**
 ##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
+- Useful SQL String Functions to Clean Data
 ### Platforms and tools
+
 #### The data has uploaded to Google Bigquery
 - Extract-Load-Clean-Merge-Transform
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
