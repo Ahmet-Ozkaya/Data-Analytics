@@ -9,9 +9,23 @@
 #### The data has uploaded to Google Bigquery
 - Extract-Load-Clean-Merge-Transform
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
-- The date value was in "mmm-yyyy" format, it was split into 2 different columns via "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" as year and month.
-- The average of each has been calculated "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
+- The date value was in "mmm-yyyy" format, it was split into 2 different columns as year and month.
+- The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" 
+- The average of each year has been calculated 
+- The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
 - Checking duplicates
+- The query "SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
+- Listing duplicate rows
+- Query SELECT a.Month
+FROM `united-yeti-189008.DS1.building_approval` a
+JOIN (SELECT Month, Number, COUNT(*)
+FROM `united-yeti-189008.DS1.building_approval` 
+GROUP BY Month, Number
+HAVING count(*) > 1 ) b
+ON a.Month = b.Month
+AND a.Number = b.Number
+ORDER BY a.Month
+
 ## Data Visualization
 ### Google Data Studio
 As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker
