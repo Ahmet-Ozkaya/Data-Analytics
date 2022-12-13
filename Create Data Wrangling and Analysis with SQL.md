@@ -17,9 +17,9 @@
 - The query "SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
 - Listing duplicate rows
 - Query SELECT a.Month
-FROM `united-yeti-189008.DS1.building_approval` a
+FROM `.DS1.building_approval` a
 JOIN (SELECT Month, Number, COUNT(*)
-FROM `united-yeti-189008.DS1.building_approval` 
+FROM `.DS1.building_approval` 
 GROUP BY Month, Number
 HAVING count(*) > 1 ) b
 ON a.Month = b.Month
