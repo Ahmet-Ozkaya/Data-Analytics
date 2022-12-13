@@ -13,8 +13,8 @@
 FROM bldg_approval_vic;
 " as year and month.
 - The data was available in quarterly format; therefore, the September value of each year has been picked by "advanced filtering".
-- The "=QUERY(Data,"SELECT A,AVG(B) GROUP BY A",1)" google spreadsheet formula has been used to get median prices of the each year.
-
+- The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
+"
 ## Data Visualization
 ### Google Data Studio
 As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker
