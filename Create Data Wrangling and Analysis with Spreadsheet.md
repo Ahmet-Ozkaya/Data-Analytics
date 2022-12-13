@@ -9,7 +9,7 @@
 #### As the data is a small dataset, the spreadsheet has been used to
 - Extract-Load-Clean-Merge-Transform
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
-- The date value was in "mmm-yyyy" format, it was split into 2 different columns via "=LEFT(Date,3)" na d "=RIGHT(Date,4)" as year and month.
+- The date value was in "mmm-yyyy" format, it was split into 2 different columns via "=LEFT(Date,3)" and "=RIGHT(Date,4)" as year and month.
 - The data was available in quarterly format; therefore, the September value of each year has been picked by "advanced filtering".
 - The "=QUERY(Data,"SELECT A,AVG(B) GROUP BY A",1)" google spreadsheet formula has been used to get median prices of the each year.
 
