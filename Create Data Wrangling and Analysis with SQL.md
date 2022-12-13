@@ -1,11 +1,21 @@
 # Create Data Wrangling and Analysis with SQL
+- Useful SQL String Functions to Clean Data
+##### 
+LEFT, RIGHT, and LENGTH
+TRIM
+POSITION and STRPOS
+SUBSTR
+CONCAT
+Changing case with UPPER and LOWER
+Turning strings into dates
+Turning dates into more useful dates
+COALESCE
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## Data Collection
 ### Data sources
 **The data collected from ...**
 ##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
-- Useful SQL String Functions to Clean Data
 ### Platforms and tools
 
 #### The data has uploaded to Google Bigquery
