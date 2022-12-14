@@ -2,12 +2,12 @@
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## ASK
--Guiding questions What topic are you exploring?
--What is the problem you are trying to solve?
--What metrics will you use to measure your data to achieve your objective?
--Who are the stakeholders?
--Who is your audience for this analysis and how does this affect your analysis process and presentation?
--How will this data help your stakeholders make decisions?
+- Guiding questions What topic are you exploring?
+- What is the problem you are trying to solve?
+- What metrics will you use to measure your data to achieve your objective?
+- Who are the stakeholders?
+- Who is your audience for this analysis and how does this affect your analysis process and presentation?
+- How will this data help your stakeholders make decisions?
 ## Key tasks
 -Choose a case study
 -Identify the problem
