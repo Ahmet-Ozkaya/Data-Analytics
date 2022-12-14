@@ -23,3 +23,11 @@
 - How did you verify the data’s integrity?
 - How does it help you answer your question?
 - Are there any problems with the data?
+## Key tasks
+- Ensuring that all of the data need for analysis and that are credible and useful.
+
+
+## Key tasks
+
+
+## Key tasks
