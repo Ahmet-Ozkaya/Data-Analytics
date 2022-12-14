@@ -1,23 +1,5 @@
----
-title: "Diamond sizes"
-date: 2016-08-25
-output: html_document
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-Headings
-------------------------------------------------------------
-=======
-title: "R Checklist Notebook"
-output: html_notebook
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
+# R Checklist Notebook
 ## ASK
-
 Guiding questions What topic are you exploring?
 What is the problem you are trying to solve?
 What metrics will you use to measure your data to achieve your objective?
