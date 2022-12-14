@@ -2,29 +2,24 @@
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## ASK
-- Guiding questions What topic are you exploring?
+### Guiding questions
+- What topic are you exploring?
 - What is the problem you are trying to solve?
 - What metrics will you use to measure your data to achieve your objective?
 - Who are the stakeholders?
 - Who is your audience for this analysis and how does this affect your analysis process and presentation?
 - How will this data help your stakeholders make decisions?
 ## Key tasks
--Choose a case study
--Identify the problem
--Determine key stakeholders
--Explore the data and establish metrics
-**The data collected from ...**
-##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
-### Platforms and tools
-#### As the data is a small dataset, the spreadsheet has been used to
-- Extract-Load-Clean-Merge-Transform
-- There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
-- The date value was in "mmm-yyyy" format, it was split into 2 different columns via "=LEFT(Date,3)" and "=RIGHT(Date,4)" as year and month.
-- The data was available in quarterly format; therefore, the September value of each year has been picked by "advanced filtering".
-- The "=QUERY(Data,"SELECT A,AVG(B) GROUP BY A",1)" google spreadsheet formula has been used to get median prices of the each year.
-
-## Data Visualization
-### Google Data Studio
-As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker
-#### [Live Dashboard](https://datastudio.google.com/reporting/ad368e2c-34ff-436b-a9d1-127288433fda)
-## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/victoria_housing_outlook_dashboard.png)
+- Choose a case study
+- Identify the problem
+- Determine key stakeholders
+- Explore the data and establish metrics
+## PREPARE
+### Guiding questions
+- Where is your data located?
+- How is the data organized?
+- Are there issues with bias or credibility in this data? Does your data ROCCC?
+- How are you addressing licensing, privacy, security, and accessibility?
+- How did you verify the data’s integrity?
+- How does it help you answer your question?
+- Are there any problems with the data?
