@@ -1,8 +1,18 @@
 # Data Wrangling and Analysis with Spreadsheet
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
-## Data Collection
-### Data sources
+## ASK
+Guiding questions What topic are you exploring?
+What is the problem you are trying to solve?
+What metrics will you use to measure your data to achieve your objective?
+Who are the stakeholders?
+Who is your audience for this analysis and how does this affect your analysis process and presentation?
+How will this data help your stakeholders make decisions?
+## Key tasks
+Choose a case study
+Identify the problem
+Determine key stakeholders
+Explore the data and establish metrics
 **The data collected from ...**
 ##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
 ### Platforms and tools
