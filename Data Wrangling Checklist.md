@@ -1,4 +1,4 @@
-# Data Wrangling and Analysis with Spreadsheet
+# Data Wrangling Checklist
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## ASK
