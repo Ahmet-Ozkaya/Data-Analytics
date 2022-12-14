@@ -9,7 +9,7 @@
 - Who are the stakeholders?
 - Who is your audience for this analysis and how does this affect your analysis process and presentation?
 - How will this data help your stakeholders make decisions?
-## Key tasks
+### Key tasks
 - Choose a case study
 - Identify the problem
 - Determine key stakeholders
@@ -23,11 +23,18 @@
 - How did you verify the data’s integrity?
 - How does it help you answer your question?
 - Are there any problems with the data?
-## Key tasks
+### Key tasks
 - Ensuring that all of the data need for analysis and that are credible and useful.
 
+## PROCESS
+### Guiding questions
+- What tools are you choosing and why?
+- Have you ensured your data’s integrity?
+- What steps have you taken to ensure that your data is clean?
+- How can you verify that your data is clean and ready to analyze?
+- Have you documented your cleaning process so you can review and share those results?
 
-## Key tasks
+### Key tasks
 
-
-## Key tasks
+### Guiding questions
+### Key tasks
