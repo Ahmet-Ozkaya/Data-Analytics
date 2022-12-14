@@ -1,4 +1,4 @@
-# Create Data Wrangling and Analysis with Spreadsheet
+# Data Wrangling and Analysis with Spreadsheet
 **I studied the correlation between consumer price index (inflation) vs property sales and prices in Melbourne, Victoria, Australia, for over ten years**
 
 ## Data Collection
