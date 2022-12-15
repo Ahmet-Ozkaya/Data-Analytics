@@ -1,4 +1,4 @@
-# Create Data Wrangling and Analysis with SQL
+# Data Wrangling and Data Analysis with SQL
 - Useful SQL String Functions to Clean Data
 ##### 
 - LEFT, RIGHT, and LENGTH
