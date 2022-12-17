@@ -18,3 +18,6 @@
 As it is well integrated with Google Cloud Bigquery, I visualized with Google Datastudio, or Google data Looker
 #### [Live Dashboard](https://datastudio.google.com/reporting/ad368e2c-34ff-436b-a9d1-127288433fda)
 ## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/victoria_housing_outlook_dashboard.png)
+
+##### [Unpivoting Pivot Tables](https://docs.google.com/spreadsheets/d/12TBoX2UI_Yu2MA2ZN3p9f-cZsySE4et1slwpgjZbSzw/edit#gid=0)
+
