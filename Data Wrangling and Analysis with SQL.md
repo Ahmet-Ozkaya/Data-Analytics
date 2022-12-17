@@ -16,7 +16,7 @@
 ## Data Collection
 ### Data sources
 **The data collected from...**
-##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022#using-price-indexes)
+##### [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/sep-quarter-2022)
 ### Platforms and tools
 
 #### The data has uploaded to Google Bigquery
