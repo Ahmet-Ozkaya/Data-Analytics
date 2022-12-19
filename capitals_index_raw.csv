@@ -1,9 +1,9 @@
 Period,City,HouseValueK,HouseNumberK,PriceIndexHousing,CPI,ConsCostIndex,TotalBldgPermit,Bldg,Pop-M
  Dec-2011,Sydney,541,2839,98.4,99.8,0,9049,0,7.3
- Dec-2011,Melbourne,513,2266,100,99.8,,22851,0,5.6
+ Dec-2011,Melbourne,513,2266,100,,,22851,0,5.6
  Dec-2011,Brisbane,429,1785,100.2,99.8,0,7327,,4.5
  Dec-2011,Adelaide,380,722,100.7,99.8,0,5222,0,1.6
- Dec-2011,Perth,525,942,99.4,99.8,,12749,,2.4
+ Dec-2011,Perth,525,942,99.4,,,12749,,2.4
  Dec-2011,Hobart,305,231,101.9,99.8,,827,,0.5
  Dec-2011,Darwin,523,74,98.2,99.8,,471,,0.2
  Dec-2011,Perth,525,942,99.4,99.8,,12749,,2.4
