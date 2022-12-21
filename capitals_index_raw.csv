@@ -20,7 +20,7 @@ Period,City,HouseValueK,HouseNumberK,PriceIndexHousing,CPI,ConsCostIndex,TotalBl
  Dec-2012,Canberra,543,148,101.8,101.8,,1782,,0.4
  Dec-2013,Sydney,,2893,119,104,,11331,,7.5
  Dec-2013,Melbourne,523,2353,109.7,1040,,18578,,5.8
- Dec-2013,Brisbane,Bris,1839,107.1,104,,,,4.7
+ Dec-2013,Brisbane,430,1839,107.1,104,7925,4.7
  Dec-2013,Adelaide,384,737,104.4,104,,5523,,1.7
  Dec-2013,Perth,572,976,113.9,104,,17903,,2.5
  Dec-2013,Hobart,298,235,103.3,104,,570,,0.5
