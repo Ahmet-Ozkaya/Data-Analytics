@@ -42,8 +42,11 @@ UPDATE TABLE `.DS1.building_approval SET Number = (SELECT avg(Number) FROM `.DS1
 ```
 - Checking duplicates
 - The query for counting duplicate rows
+```
 SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
+```
 - The query for listing duplicate rows
+```
 Query SELECT a.Month
 FROM `.DS1.building_approval` a
 JOIN (SELECT Month, Number, COUNT(*)
@@ -53,6 +56,7 @@ HAVING count(*) > 1 ) b
 ON a.Month = b.Month
 AND a.Number = b.Number
 ORDER BY a.Month
+```
 - Observing unusual values with statisticals: MIN, MAX, MEAN, AVERAGE, MEDIAN, STDEV
 ## Data Visualization
 ### Microsoft Power BI
