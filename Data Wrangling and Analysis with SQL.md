@@ -22,15 +22,24 @@
 #### The data has uploaded to Google Bigquery
 - Extract-Load-Clean-Merge-Transform
 - There were too many attributes available, state, cities, areas etc. Only mean, median, and number of sales of houses, units, and apartments have been selected
-- SELECT TRIM(Month),Number FROM `.DS1.building_approval`
+
+```
+SELECT TRIM(Month),Number FROM `.DS1.building_approval`
+```
 - The date value was in "mmm-yyyy" format, it was split into 2 different columns as year and month.
-- The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" 
+- The query
+```
+SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" 
+```
 - The average of each year has been calculated 
-- The query "SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
+- The query 
+```
+SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
+```
 - Updating NULL values with average 
-UPDATE TABLE `.DS1.building_approval`
-SET Number = (SELECT avg(Number) FROM `.DS1.building_approval`)
-WHERE Number IS NULL;
+```
+UPDATE TABLE `.DS1.building_approval SET Number = (SELECT avg(Number) FROM `.DS1.building_approval`) WHERE Number IS NULL;
+```
 - Checking duplicates
 - The query for counting duplicate rows
 SELECT Month,Number,COUNT(*) AS DUPCNT FROM `.DS1.building_approval` GROUP BY Month, Number HAVING COUNT(*) > 0"
