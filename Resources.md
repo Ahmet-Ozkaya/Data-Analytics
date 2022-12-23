@@ -1,4 +1,4 @@
-# Data Wrangling and Data Analysis Resources
+# Useful Resources for Data Analysis
 - Useful Resources
 
 ## Data Collection
