@@ -8,4 +8,4 @@
 ##### [Tableau](https://public.tableau.com/app/discover)
 ##### [R Studio](https://posit.cloud)
 ### Databases
-#### Google BigQuery](https://cloud.google.com/bigqueryhttps:)
+#### [Google BigQuery](https://cloud.google.com/bigqueryhttps:)
