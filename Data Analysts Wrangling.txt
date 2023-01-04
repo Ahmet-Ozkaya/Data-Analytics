@@ -2,3 +2,8 @@ https://public.tableau.com/app/profile/grow.with.google/viz/DataAnalystJobs/Data
 
 Rows (Glassdoor Rating	EmployeeNumber	Sector	Type of ownership	Competitors	Headquarters	Location	Industry	Revenue) have been removed due to incomplete data, which is more than 80% = 2254-161
 Rows where EmployeeNumber,Industry	Revenue) unknown weere also removed -42
+
+Drill Down
+Dashboard--Action
+
+CREATE CALCULATED FIELD-->INDEX-INDEX()
