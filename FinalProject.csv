@@ -1,4 +1,4 @@
-Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch careers into Data?,Average Salary,Q4 - What Industry do you work in?,Q5 - Favorite Programming Language,Q6 - How Happy are you in your Current Position with the following? (Salary),Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance),Q6 - How Happy are you in your Current Position with the following? (Coworkers),Q6 - How Happy are you in your Current Position with the following? (Management),Q6 - How Happy are you in your Current Position with the following? (Upward Mobility),Q6 - How Happy are you in your Current Position with the following? (Learning New Things),Q7 - How difficult was it for you to break into Data?,"Q8 - If you were to look for a new job today, what would be the most important thing to you?",Q9 - Male/Female?,Q10 - Current Age,Q11 - Which Country do you live in?,Q12 - Highest Level of Education,Q13 - Ethnicity
+Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch careers into Data?,Average Salary,Q4 - What Industry do you work in?,Q5 - Favorite Programming Language,Q6 - How Happy are you in your Current Position with the following? (Salary),Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance),Q6 - How Happy are you in your Current Position with the following? (Coworkers),Q6 - How Happy are you in your Current Position with the following? (Management),Q6 - How Happy are you in your Current Position with the following? (Upward Mobility),Q6 - How Happy are you in your Current Position with the following? (Learning New Things),Q7 - How difficult was it for you to break into Data?,Q8 - If you were to look for a new job today, what would be the most important thing to you?,Q9 - Male/Female?,Q10 - Current Age,Q11 - Which Country do you live in?,Q12 - Highest Level of Education,Q13 - Ethnicity
 62a33b3db4da29969c62df3d,Data Analyst,Yes,115.50,Healthcare,Python,9,9,7,5,5,7,Very Difficult,Remote Work,Male,26,United States,,White or Caucasian
 62a33ba1bae91e4b8b82e35c,Data Analyst,No,53.00,Finance,R,1,2,5,2,1,3,Very Difficult,Remote Work,Male,36,Canada,,Asian or Asian American
 62a33c2cbc6861bf3176bec1,Data Engineer,No,20,Other,Python,0,8,7,5,7,7,Easy,Good Work/Life Balance,Male,23,Nigeria,,Black or African American
@@ -44,15 +44,15 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a33fcf18134ddc75ce91c3,Student/Looking/None,No,53,Telecommunication,Python,3,1,3,4,0,3,Easy,Good Work/Life Balance,Male,43,Spain,,White or Caucasian
 62a34006d8c00e9f5419d341,Student/Looking/None,Yes,20,Construction,Python,0,0,0,0,0,0,Very Difficult,Better Salary,Male,23,Kenya ,,Other (Please Specify):Kenyan African 
 62a34020575fa3a5ae88ade0,Student/Looking/None,Yes,20,Education,Python,5,5,3,5,2,6,Difficult,Better Salary,Male,23,Japan,,Asian or Asian American
-62a34038b4da29969c62eafe,Data Analyst,Yes,95.5,Other,Python,8,6,2,3,6,7,Neither easy nor difficult,"Other (Please Specify):Strong organizational data strategy, high-performing team",Male,28,United States,,White or Caucasian
+62a34038b4da29969c62eafe,Data Analyst,Yes,95.5,Other,Python,8,6,2,3,6,7,Neither easy nor difficult,Other (Please Specify):Strong organizational data strategy, high-performing team,Male,28,United States,,White or Caucasian
 62a3406b575fa3a5ae88ae78,Data Analyst,No,75.5,Finance,SQL,5,7,1,1,0,8,Neither easy nor difficult,Better Salary,Male,32,United States,,White or Caucasian
 62a340cab4da29969c62ec01,Data Analyst,Yes,75.5,Other,R,7,8,10,8,9,9,Difficult,Remote Work,Female,41,United States,,White or Caucasian
 62a340d62e54c9003e5324b4,Data Analyst,Yes,53,Finance,Python,5,6,6,6,6,6,Neither easy nor difficult,Remote Work,Male,33,United Kingdom,High School,White or Caucasian
-62a340e10a77c1a77f65c2e7,"Other (Please Specify):Manager, Business Intelligence Develop",Yes,187.5,Tech,Python,10,8,9,8,8,10,Easy,Good Work/Life Balance,Male,38,United States,,Hispanic or Latino
+62a340e10a77c1a77f65c2e7,Other (Please Specify):Manager, Business Intelligence Develop,Yes,187.5,Tech,Python,10,8,9,8,8,10,Easy,Good Work/Life Balance,Male,38,United States,,Hispanic or Latino
 62a340f5bc6861bf3176caa4,Data Analyst,No,20,Tech,sql,8,8,8,8,5,10,Easy,Better Salary,Female,22,India,,Other (Please Specify):Indian
 62a34117cec54911e9ca54e7,Student/Looking/None,Yes,20,Other,R,1,3,6,6,6,9,Difficult,Remote Work,Male,36,Barbados,Bachelors,Black or African American
 62a3413a5d257a28a30d8074,Data Engineer,No,75.5,Finance,Python,2,1,1,1,3,7,Easy,Remote Work,Female,28,United States,Masters,Asian or Asian American
-62a341a1f3072dd8926229a5,Student/Looking/None,Yes,20,Other,SQL,,,,,,7,Very Easy,Other (Please Specify):I would say a combination of good work/life balance with a better pay and the exposure to a workplace that supposed growth,Male,30,South Africa,,"Other (Please Specify):Black African, Zimbabwean Citizen"
+62a341a1f3072dd8926229a5,Student/Looking/None,Yes,20,Other,SQL,,,,,,7,Very Easy,Other (Please Specify):I would say a combination of good work/life balance with a better pay and the exposure to a workplace that supposed growth,Male,30,South Africa,,Other (Please Specify):Black African, Zimbabwean Citizen
 62a341b0f8f7561645852d1d,Data Analyst,Yes,75.5,Tech,Python,6,6,6,6,5,6,Difficult,Other (Please Specify):Currently very happy with where I am.,Female,24,United States,Bachelors,Hispanic or Latino
 62a341e8f8d5efcc22f7d002,Other (Please Specify):Business Analyst ,No,53,Other,C/C++,3,6,7,7,0,3,Very Difficult,Better Salary,Male,29,United States,Bachelors,White or Caucasian
 62a34210cf25554317300c02,Data Analyst,No,20,Tech,Python,4,9,10,9,9,10,Easy,Better Salary,Male,29,Colombia,Associates,Hispanic or Latino
@@ -91,13 +91,13 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a346d724a2626027383abd,Other (Please Specify):Business Analyst,Yes,75.5,Other,Python,7,9,9,8,8,9,Neither easy nor difficult,Good Work/Life Balance,Male,35,Chile,Bachelors,Hispanic or Latino
 62a346d90a77c1a77f65d08d,Data Analyst,No,53,Other,Python,6,8,5,,6,9,Neither easy nor difficult,Remote Work,Female,42,Greece,Masters,White or Caucasian
 62a34726f8d5efcc22f7dec7,Data Analyst,No,75.5,Tech,Python,3,4,2,1,0,4,Neither easy nor difficult,Better Salary,Male,25,United States,Bachelors,White or Caucasian
-62a3476c5d257a28a30d8e6d,Data Analyst,No,95.5,Other,Python,5,4,5,4,3,6,Neither easy nor difficult,"Other (Please Specify):Different job title, either product owner or consulting",Male,23,United States,Bachelors,White or Caucasian
+62a3476c5d257a28a30d8e6d,Data Analyst,No,95.5,Other,Python,5,4,5,4,3,6,Neither easy nor difficult,Other (Please Specify):Different job title, either product owner or consulting,Male,23,United States,Bachelors,White or Caucasian
 62a347b4f8f7561645853a98,Other (Please Specify):Learning Management Specialist,No,53,Healthcare,JavaScript,2,4,6,5,3,4,Easy,Better Salary,Female,51,United States,Bachelors,Black or African American
 62a347f6b4da29969c62fb79,Data Analyst,No,20,Telecommunication,Other,1,4,4,3,2,6,Very Difficult,Better Salary,Male,30,United Kingdom,Bachelors,Black or African American
 62a3483018134ddc75cea4e6,Data Analyst,Yes,53,Finance,Python,8,9,9,9,9,8,Very Difficult,Better Salary,Male,23,India,Bachelors,Asian or Asian American
 62a348650f8c8599d5af2b77,Other (Please Specify):Research Analyst,Yes,53,Other,R,3,5,5,6,3,4,Neither easy nor difficult,Better Salary,Male,24,Canada,Bachelors,Asian or Asian American
 62a3489318134ddc75cea659,Student/Looking/None,Yes,53,Tech,Python,6,6,6,6,6,6,Easy,Good Culture,Male,25,Australia,Masters,Asian or Asian American
-62a348bf2e54c9003e533634,Data Analyst,Yes,53,Finance,Python,4,4,6,4,5,6,Difficult,Better Salary,Female,55,United States,Masters,Other (Please Specify):Race isn't a thing
+62a348bf2e54c9003e533634,Data Analyst,Yes,53,Finance,Python,4,4,6,4,5,6,Difficult,Better Salary,Female,55,United States,Masters,Other (Please Specify):Race isnt a thing
 62a348c2f3072dd892623c10,Data Analyst,No,95.5,Other,R,8,10,8,7,8,10,Very Easy,Remote Work,Female,30,United States,Masters,White or Caucasian
 62a348f2f8d5efcc22f7e2ba,Data Analyst,Yes,53,Other,Python,9,9,9,9,7,4,Difficult,Better Salary,Male,25,Canada,Bachelors,Asian or Asian American
 62a349160a77c1a77f65d4db,Data Analyst,Yes,75.5,Other,Python,6,9,7,6,7,7,Neither easy nor difficult,Better Salary,Male,28,United States,Masters,White or Caucasian
@@ -153,7 +153,7 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a354e9cf255543173031ed,Data Engineer,No,95.5,Healthcare,R,8,10,8,8,9,10,Neither easy nor difficult,Good Culture,Male,28,United States,Masters,Black or African American
 62a35541f3072dd892625517,Data Analyst,Yes,53,Other,Python,5,5,7,7,7,7,Easy,Better Salary,Male,32,United Kingdom,Bachelors,White or Caucasian
 62a355445d257a28a30dab12,Data Analyst,Yes,53,Other,Python,0,7,7,7,0,7,Easy,Good Culture,Male,29,United States,Bachelors,Asian or Asian American
-62a35631cf25554317303425,Data Analyst,No,53,Healthcare,R,7,5,8,6,5,10,Difficult,"Other (Please Specify):Want to move from Australia to Canada, so position in desired country ",Female,26,Australia,Masters,White or Caucasian
+62a35631cf25554317303425,Data Analyst,No,53,Healthcare,R,7,5,8,6,5,10,Difficult,Other (Please Specify):Want to move from Australia to Canada, so position in desired country ,Female,26,Australia,Masters,White or Caucasian
 62a357390a77c1a77f65f189,Data Engineer,Yes,53,Tech,Python,0,7,5,0,0,7,Neither easy nor difficult,Remote Work,Male,37,Canada,Masters,White or Caucasian
 62a3578b0a77c1a77f65f279,Data Analyst,No,53,Other,R,4,6,5,4,5,6,Neither easy nor difficult,Better Salary,Male,25,United States,Bachelors,White or Caucasian
 62a357d30f8c8599d5af4ea3,Data Analyst,No,20,Finance,Sql,4,4,5,6,6,0,Difficult,Better Salary,Male,24,Israel,High School,White or Caucasian
@@ -241,7 +241,7 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a385480f8c8599d5afa5c6,Data Engineer,Yes,20,Other,Python,4,7,7,6,8,7,Neither easy nor difficult,Better Salary,Male,36,Singapore,Associates,Asian or Asian American
 62a3856218134ddc75cf1ee0,Data Analyst,Yes,75.5,Finance,Python,6,10,9,9,9,10,Difficult,Better Salary,Male,35,United States,Bachelors,Hispanic or Latino
 62a385c40f8c8599d5afa6cf,Data Analyst,Yes,75.5,Tech,Python,3,4,4,4,5,5,Very Difficult,Good Work/Life Balance,Male,29,United States,Masters,Asian or Asian American
-62a385ddbae91e4b8b837855,Data Analyst,No,53,Finance,Python,6,5,9,9,7,5,Neither easy nor difficult,"Other (Please Specify):I just started and I don't like programming so much, so I would search for a more ""impactiful"" role. Meaning: being able to take decisions that steer the business.",Female,25,Germany,Masters,Hispanic or Latino
+62a385ddbae91e4b8b837855,Data Analyst,No,53,Finance,Python,6,5,9,9,7,5,Neither easy nor difficult,Other (Please Specify):I just started and I dont like programming so much, so I would search for a more impactiful role. Meaning: being able to take decisions that steer the business.,Female,25,Germany,Masters,Hispanic or Latino
 62a385e7b4da29969c6372ab,Database Developer,Yes,53,Other,Python,6,8,8,9,6,8,Difficult,Remote Work,Male,29,United States,Bachelors,White or Caucasian
 62a386dfcec54911e9cae1d3,Data Analyst,No,95.5,Agriculture,Python,7,6,7,4,5,8,Difficult,Good Work/Life Balance,Male,26,United States,Bachelors,Black or African American
 62a3870bbc6861bf31775841,Data Analyst,No,20,Other,R,1,1,1,1,1,1,Neither easy nor difficult,Remote Work,Male,34,Ghana,Bachelors,Black or African American
@@ -312,7 +312,7 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a3c5f2cec54911e9cb3d9b,Student/Looking/None,Yes,20,Other,R,2,10,10,10,10,3,Neither easy nor difficult,Remote Work,Female,29,Germany,Bachelors,Other (Please Specify):Russian
 62a3c7f1bc6861bf3177b06e,Other (Please Specify):PMO,No,53,Tech,C/C++,7,7,7,7,7,7,Neither easy nor difficult,Better Salary,Female,43,Singapore,High School,Asian or Asian American
 62a3c8652e54c9003e54103e,Data Analyst,Yes,20,Finance,Python,0,5,9,9,0,10,Neither easy nor difficult,Remote Work,Male,26,Antigua ,Bachelors,Black or African American
-62a3ca44bae91e4b8b83dcd4,Student/Looking/None,No,53,Tech,SQL,7,8,7,7,8,7,Neither easy nor difficult,"Other (Please Specify):Mix of better salary, good work/life balance, remote work and good culture",Female,47,United States,Bachelors,Black or African American
+62a3ca44bae91e4b8b83dcd4,Student/Looking/None,No,53,Tech,SQL,7,8,7,7,8,7,Neither easy nor difficult,Other (Please Specify):Mix of better salary, good work/life balance, remote work and good culture,Female,47,United States,Bachelors,Black or African American
 62a3cafff8d5efcc22f8b5cb,Student/Looking/None,Yes,20,Finance,Python,,,,8,10,10,Easy,Remote Work,Male,23,Nigeria ,Bachelors,Black or African American
 62a3cbfef8d5efcc22f8b6f1,Data Analyst,Yes,20,Tech,Python,0,1,1,1,1,2,Very Difficult,Better Salary,Male,25,Egypt,Bachelors,Other (Please Specify):Egyp
 62a3cde8f8f7561645861366,Other (Please Specify):System Administrator,No,20,Finance,Python,6,6,3,7,2,4,Very Difficult,Other (Please Specify):Learning opportunity,Male,32,Poland,Masters,White or Caucasian
@@ -494,7 +494,7 @@ Unique ID,Q1 - Which Title Best Fits your Current Role?,Q2 - Did you switch care
 62a642690f8c8599d5b2ab37,Data Analyst,Yes,53,Other,Python,7,9,9,9,7,9,Easy,Better Salary,Female,28,United Kingdom,Bachelors,Asian or Asian American
 62a64b4dd8c00e9f541d6d81,Data Analyst,No,20,Real Estate,R,3,7,8,6,6,9,Difficult,Remote Work,Male,26,Nigeria,High School,Black or African American
 62a64c6ecf2555431733a7a4,Other (Please Specify):Technical consulta,Yes,20,Tech,Python,3,5,5,4,3,2,Difficult,Better Salary,Female,24,India,Bachelors,Asian or Asian American
-62a654165d257a28a3112ac9,"Other (Please Specify):Software Engineer, AI ",Yes,95.5,Finance,Python,7,5,5,8,8,8,Neither easy nor difficult,Remote Work,Female,40,United States,Associates,Other (Please Specify):Bi-racial people should be able to check 2 options in 2022. 
+62a654165d257a28a3112ac9,Other (Please Specify):Software Engineer, AI ,Yes,95.5,Finance,Python,7,5,5,8,8,8,Neither easy nor difficult,Remote Work,Female,40,United States,Associates,Other (Please Specify):Bi-racial people should be able to check 2 options in 2022. 
 62a65618d8c00e9f541d783a,Data Analyst,Yes,75.5,Other,Python,8,10,10,10,7,9,Neither easy nor difficult,Better Salary,Male,26,United States,Bachelors,Black or African American
 62a65db824a26260273bc9ff,Data Scientist,Yes,53,Other,Python,8,8,10,10,10,10,Easy,Good Culture,Female,44,United Kingdom,Bachelors,White or Caucasian
 62a66558cf2555431733c0f9,Other (Please Specify):Systems configuration ,Yes,75.5,Other,Python,7,9,8,8,6,6,Neither easy nor difficult,Better Salary,Male,36,United States,Masters,White or Caucasian
