@@ -1,18 +1,26 @@
 # Data Preparation with SQL
 - Useful SQL String Functions to Prepare Data
 ##### 
+- Calculating Running Total
 - CTE
 - Subquery
-- Calculating Running Total
+
 - 
- 
+### Simple Running Total 
 ```sql
-SELECT TRIM(Month),Number FROM `.DS1.building_approval`
+	SELECT date,sale_amount,
+	  SUM(sale_amount) OVER (ORDER BY date)
+	  AS total_amount
+	FROM sales;
 ```
-- The date value was in "mmm-yyyy" format, it was split into 2 different columns as year and month.
-- The query
+
+### Partition by Department Running Total 
 ```sql
-SELECT Right(bldg_approval_vic.Period,4) AS [Year], Left([bldg_approval_vic].[Period],3) AS [Month], bldg_approval_vic.Number FROM bldg_approval_vic" 
+	SELECT department, date,sale_amount,
+	  SUM(sale_amount) 
+	  OVER(PARTITION BY Department ORDER BY date)
+	  AS total_amount
+	FROM sales;
 ```
 - The average of each year has been calculated 
 - The query 
@@ -40,8 +48,3 @@ ON a.Month = b.Month
 AND a.Number = b.Number
 ORDER BY a.Month
 ```
-- Observing unusual values with statisticals: MIN, MAX, MEAN, AVERAGE, MEDIAN, STDEV
-## Data Visualization
-### Microsoft Power BI
-The data visualized with Microsoft Power BI
-## ![](https://github.com/Ahmet-Ozkaya/Data-Analytics/blob/main/HousingOutlookPowerBI.png)
