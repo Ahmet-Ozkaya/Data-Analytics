@@ -134,7 +134,7 @@ DIVIDE(
     [Total Sales], 
     [Total Sales (All Countries)] ) 
 ```
- ### C
+ ### Total Sales (United States)
 ```sql
 Total Sales (United States) =  
 CALCULATE( 
