@@ -1,5 +1,4 @@
-# Data Preparation with SQL
-- Useful SQL String Functions to Prepare Data
+# Useful SQL String Functions to Prepare Data
 ##### 
 - Calculating Running Total
 - CTE
