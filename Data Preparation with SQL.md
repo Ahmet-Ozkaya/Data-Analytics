@@ -41,3 +41,46 @@
 		MAX(total_amount) AS TotalMax
 	FROM average_sales;
 ```
+## Basics
+### IN 
+```sql
+SELECT * 
+FROM transaction 
+WHERE store_location IN ('Richmond', 'Brunswick', 'Kew'); 
+```
+### Case 
+```sql
+SELECT Order_Id, Total_Value 
+
+       CASE WHEN Total_value > 150 THEN 'HIGH' 
+
+            WHEN Total_value < 150 THEN 'LOW' 
+
+            ELSE 'MEDIUM' END as Order_Category 
+
+FROM Orders; 
+```
+### GROUP BY 
+```sql
+SELECT Customer_Id, SUM(Total_Value) 
+FROM Orders 
+GROUP BY Customer_Id 
+ORDER BY 2 DESC; 
+```
+### UNION 
+```sql
+SELECT 'Customer' AS Type, ContactName, City, Country 
+FROM Customers 
+UNION 
+SELECT 'Supplier', ContactName, City, Country 
+FROM Suppliers; 
+```
+### HAVING 
+```sql
+SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders 
+FROM Orders 
+INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID 
+WHERE LastName = 'Davolio' OR LastName = 'Fuller' 
+GROUP BY LastName 
+HAVING COUNT(Orders.OrderID) > 25; 
+```
