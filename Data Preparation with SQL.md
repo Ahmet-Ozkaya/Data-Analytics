@@ -28,6 +28,54 @@
 		AVG(sale_amount)
 	);
 ```
+### Subquery
+```sql
+SELECT
+    order_id,
+    order_date,
+    customer_id
+FROM
+    sales.orders
+WHERE
+    customer_id IN (
+        SELECT
+            customer_id
+        FROM
+            sales.customers
+        WHERE
+            city = 'New York'
+    )
+ORDER BY
+    order_date DESC;
+```
+### Nested Subquery
+
+```	sql
+SELECT
+    product_name,
+    list_price
+FROM
+    production.products
+WHERE
+    list_price > (
+        SELECT
+            AVG (list_price)
+        FROM
+            production.products
+        WHERE
+            brand_id IN (
+                SELECT
+                    brand_id
+                FROM
+                    production.brands
+                WHERE
+                    brand_name = 'Strider'
+                OR brand_name = 'Trek'
+            )
+    )
+ORDER BY
+    list_price;
+```
 ### CTE
 
 ```sql
@@ -51,13 +99,9 @@ WHERE store_location IN ('Richmond', 'Brunswick', 'Kew');
 ### Case 
 ```sql
 SELECT Order_Id, Total_Value 
-
        CASE WHEN Total_value > 150 THEN 'HIGH' 
-
             WHEN Total_value < 150 THEN 'LOW' 
-
             ELSE 'MEDIUM' END as Order_Category 
-
 FROM Orders; 
 ```
 ### GROUP BY 
