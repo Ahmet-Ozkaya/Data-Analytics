@@ -28,8 +28,8 @@
 		AVG(sale_amount)
 	);
 ```
+### CTE
 
-- Updating NULL values with average 
 ```sql
 	WITH average_sales AS (
 	SELECT
