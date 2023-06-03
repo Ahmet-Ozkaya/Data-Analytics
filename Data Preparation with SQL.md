@@ -4,8 +4,6 @@
 - Calculating Running Total
 - CTE
 - Subquery
-
-- 
 ### Simple Running Total 
 ```sql
 	SELECT date,sale_amount,
