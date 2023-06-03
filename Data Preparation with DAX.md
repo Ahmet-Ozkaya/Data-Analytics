@@ -50,7 +50,7 @@ CALENDAR (DATE (2020, 1, 1), DATE (2022, 12, 31)),
 "DayOfWeek", WEEKDAY([Date]) 
 ) 
 ```
- ## Age Breakdown Calculation (Column on Customer Table) 
+ ### Age Breakdown Calculation (Column on Customer Table) 
 ```sql
 Age Breakdown =  
 IF('Customer'[Age] >= 55, "55+", 
@@ -58,16 +58,16 @@ IF('Customer'[Age] >= 45, "45-54",
 IF('Customer'[Age] >= 35, "35-44", 
 "18-34" ) ) ) 
 ```
- ## Temperature Key (Column on Internet Sales Table) 
+ ### Temperature Key (Column on Internet Sales Table) 
 ```sql
 Temperature Key =  
 RELATED('Sales Territory'[Sales Territory Region]) & RELATED('Date'[Month Number Of Year]) 
 ```
- ## Total Transactions (Column on Sales Territory table) 
+ ### Total Transactions (Column on Sales Territory table) 
 ```sql
 Total Transactions = COUNTROWS(RELATEDTABLE('Internet Sales')) 
 ```
- ## Region Volume SWITCH(TRUE
+ ### Region Volume SWITCH(TRUE
 ```sql
 Region Volume =  
 SWITCH(TRUE(), 
@@ -76,48 +76,48 @@ SWITCH(TRUE(),
     [Total Transactions] >= 1, "Low Volume", 
     "N/A" )  
 ```
- ## Last Order Date (Column on Customer Table) 
+ ### Last Order Date (Column on Customer Table) 
 ```sql
 Last Order Date = MAXX(RELATEDTABLE('Internet Sales'), 'Internet Sales'[Order Date]) 
 ```
- ### Calculated Measures
- ## Total Transactions (Measure on Internet Sales) 
+ ## Calculated Measures
+ ### Total Transactions (Measure on Internet Sales) 
 ```sql
 Total Transactions = COUNTROWS('Internet Sales') 
 ```
- ## Total Sales
+ ### Total Sales
 ```sql
 Total Sales = SUM('Internet Sales'[Sales Amount])  
 ```
- ## Total Cost
+ ### Total Cost
 ```sql
 Total Cost = SUM('Internet Sales'[Total Product Cost]) 
 ```
- ## Profit
+ ### Profit
 ```sql
 Profit = [Total Sales] - [Total Cost] 
 ```
- ## Profit Margin 
+ ### Profit Margin 
 ```sql
 Profit Margin = DIVIDE([Profit], [Total Sales]) 
 ```
- ### Working with CALCULATE
+ ## Working with CALCULATE
  
- ## Total Sales (All Countries) 
+ ### Total Sales (All Countries) 
 ```sql
 Total Sales (All Countries) =  
 CALCULATE( 
     [Total Sales], 
     ALL('Sales Territory'[Sales Territory Country] ) )  
 ```
- ## Total Sales (All Countries)  
+ ### Total Sales (All Countries)  
 ```sql
 Total Sales (All Countries) =  
 CALCULATE( 
     [Total Sales], 
     REMOVEFILTERS('Sales Territory'[Sales Territory Country] ) )  
 ```
- ## Total Sales (All Countries) Removing Blanks
+ ### Total Sales (All Countries) Removing Blanks
 ```sql
 Total Sales (All Countries) =  
 IF( 
@@ -127,82 +127,140 @@ IF(
         [Total Sales], 
         ALL('Sales Territory'[Sales Territory Country] ) ) ) 
 ```
- ## Percent of Total 
+ ### Percent of Total 
 ```sql
 Country Percent of Total Sales =  
 DIVIDE( 
     [Total Sales], 
     [Total Sales (All Countries)] ) 
 ```
- ## C
+ ### C
+```sql
+Total Sales (United States) =  
+CALCULATE( 
+    [Total Sales], 
+    'Sales Territory'[Sales Territory Country] = "United States") 
+```
+ ### Total Sales (United States) Removing Blanks
+```sql
+Total Sales (United States) =  
+IF( 
+    ISBLANK([Total Sales]), 
+    BLANK(), 
+    CALCULATE( 
+        [Total Sales], 
+        'Sales Territory'[Sales Territory Country] = "United States")) 
+```
+ ### Total Sales (US and Canada)  
+```sql
+Total Sales (US and Canada) =  
+CALCULATE( 
+    [Total Sales], 
+    'Sales Territory'[Sales Territory Country] IN { "United States", "Canada" }) 
+```
+ ### Total Sales (US and Canada)  Optional Method** Sames results as above. 
+```sql
+Total Sales (US and Canada) =  
+CALCULATE( 
+    [Total Sales], 
+    'Sales Territory'[Sales Territory Country] = "United States" || // The double pipe delimiter is an OR condition. 
+    'Sales Territory'[Sales Territory Country] = "Canada" ) 
+```
+ ### Total Sales (2007)
+```sql
+Total Sales (2007) =  
+CALCULATE( 
+    [Total Sales], 
+    'Date'[Year] = 2007) 
+```
+ ## Time Intelligence Calculations
+
+ ### Year to Date Sales 
+```sql
+YTD Sales =  
+TOTALYTD( 
+    [Total Sales], 
+    'Date'[Date] ) 
+```
+ ### Fiscal Year to Date Sales 
+```sql
+Fiscal YTD Sales =  
+TOTALYTD( 
+    [Total Sales], 
+    'Date'[Date], 
+    "06/30" ) 
+```
+ ### Prior Year Sales
+```sql
+Prior Year Sales =  
+CALCULATE( 
+    [Total Sales], 
+    SAMEPERIODLASTYEAR( 
+        'Date'[Date]  ) ) 
+```
+ ### Prior Month Sales
+```sql
+Prior Month Sales =  
+CALCULATE( 
+    [Total Sales], 
+    DATEADD( 
+        'Date'[Date], 
+        -1, MONTH ) ) 
+```
+ ### Semi Additive Measures
+```sql
+Inventory Balance =  
+SUM('Product Inventory'[Units Balance]) 
+```
+ ### Closing Balance
+```sql
+Closing Balance (Last Date) =  
+CALCULATE( 
+    [Inventory Balance], 
+    LASTDATE(  
+        'Date'[Date] ) )  
+```
+ ### Closing Balance (Non Blank)
+```sql
+Closing Balance (Non Blank) =  
+CALCULATE( 
+    [Inventory Balance], 
+    LASTNONBLANK(  
+        'Date'[Date], 
+        [Inventory Balance] ) )  
+```
+ ### Opening Balance Month 
+```sql
+Opening Balance Month =  
+CALCULATE( 
+    [Inventory Balance], 
+    LASTNONBLANK(  
+        PARALLELPERIOD( 
+            'Date'[Date], 
+            -1, 
+            MONTH), 
+        [Inventory Balance] ) ) 
+```
+ ### Last Order Date (Column on Customer Table) 
+```sql
+Last Order Date (CT) =  
+CALCULATE( 
+    MAX('Internet Sales'[Order Date])  
+) 
+```
+ ### C
 ```sql
 
 ```
- ## C
+ ### C
 ```sql
 
 ```
- ## C
+ ### C
 ```sql
 
 ```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
-```sql
-
-```
- ## C
+ ### C
 ```sql
 
 ```
