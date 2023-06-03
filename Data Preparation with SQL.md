@@ -22,10 +22,15 @@
 	  AS total_amount
 	FROM sales;
 ```
-- The average of each year has been calculated 
-- The query 
+### Subquery
+- The list of sales above average 
 ```sql
-SELECT Right(bldg_approval_vic.Period,4) AS [Year], Round(Avg([bldg_approval_vic].[permit_number]),0) AS permit_number_avg FROM bldg_approval_vic GROUP BY Right(bldg_approval_vic.Period,4);
+	SELECT department, date, sale_amount
+	FROM sales
+	WHERE sale_amount >(
+		AVG(sale_amount)
+	);
+
 ```
 - Updating NULL values with average 
 ```sql
