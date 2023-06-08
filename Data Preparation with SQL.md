@@ -45,28 +45,28 @@ HAVING COUNT(Orders.OrderID) > 25;
 - Subquery
 ### Simple Running Total 
 ```sql
-	SELECT date,sale_amount,
-	  SUM(sale_amount) OVER (ORDER BY date)
-	  AS total_amount
-	FROM sales;
+SELECT date,sale_amount,
+SUM(sale_amount) OVER (ORDER BY date)
+AS total_amount
+FROM sales;
 ```
 
 ### Partition by Department Running Total 
 ```sql
-	SELECT department, date,sale_amount,
-	  SUM(sale_amount) 
-	  OVER(PARTITION BY Department ORDER BY date)
-	  AS total_amount
-	FROM sales;
+SELECT department, date,sale_amount,
+SUM(sale_amount) 
+OVER(PARTITION BY Department ORDER BY date)
+AS total_amount
+FROM sales;
 ```
 ### Subquery
 - The list of sales above average 
 ```sql
-	SELECT department, date, sale_amount
-	FROM sales
-	WHERE sale_amount >(
-		AVG(sale_amount)
-	);
+SELECT department, date, sale_amount
+FROM sales
+WHERE sale_amount >(
+AVG(sale_amount)
+);
 ```
 ### Subquery
 ```sql
