@@ -248,12 +248,21 @@ CALCULATE(
     MAX('Internet Sales'[Order Date])  
 ) 
 ```
- ### C
+ ### SUMIFS like Excel 
 ```sql
-
+Current Year Revenue Total = CALCULATE( 
+SUM(sales[Revenue]), 
+YEAR([Date])=YEAR(TODAY()) 
+)
 ```
- ### C
+ ### Running Total 
 ```sql
+Running Total = CALCULATE( 
+SUM(sales[Revenue]),FILTER( 
+ALLSELECTED(Sales[SalesDate]), 
+ISONORAFTER(Sales[SalesDate], MAX(Sales[SalesDate]), DESC) 
+) 
+) 
 
 ```
  ### C
